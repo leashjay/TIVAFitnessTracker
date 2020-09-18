@@ -1,0 +1,45 @@
+# Created by https://www.gitignore.io/api/codecomposerstudio
+# Edit at https://www.gitignore.io/?templates=codecomposerstudio
+
+### CodeComposerStudio ###
+tmp/
+*.tmp
+*.bak
+# Generated build artifact directories
+Debug/
+Release/
+Flash/
+RAM/
+# Generated build artifacts
+makefile
+*.map
+*.mk
+*.opt
+*.pp
+*.xml
+*.metadata
+*.jxbrowser-data
+# Generated directories
+.config/
+.launches/
+# Generated file used to help display error messages in the problems view
+.xdchelp
+# Uniflash session files
+*.uniflashsession
+
+/targetConfigs/Tiva TM4C1232H6PM.ccxml
+tm4c1232h6pm.cmd
+tm4c1232h6pm_startup_ccs.c
+ustdlib.c
+
+*.cproject
+*.ccsproject
+*.project
+
+RemoteSystemsTempFiles/.project
+
+
+
+
+# End of https://www.gitignore.io/api/codecomposerstudio
+
